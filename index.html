@@ -6,10 +6,270 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/ca26e6316f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
+    <header>
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bagpack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="container m-5 p-5 w-100" style="background-color: #FEEAE9;">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="d-flex justify-content-center align-items-center row ">
+                            <div
+                                class="col-lg-6 col-12 col-sm-4 justify-content-center align-items-center pb-5 pb-sm-0">
+                                <h1>Brand new collection</h1>
+                                <p>It's a new addition of panda.</p>
+                                <p class="fs-1">$420</p>
+                                <buttton class="btn" style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+                                ">BUY NOW <span><i class="fas fa-long-arrow-alt-right light"></i></span></buttton>
+                            </div>
+                            <div class="col-lg-4 col-12 col-sm-4 justify-content-center">
+                                <img width="402px" height="378px" src="images/banner-images/headphone.png"
+                                    class="d-block w-sm-75" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex justify-content-center align-items-center row">
+                            <div class="col-lg-6 col-12 col-sm-4 justify-content-center align-items-center">
+                                <h1>Brand new collection</h1>
+                                <p>It's a new addition of panda.</p>
+                                <p class="fs-1">$420</p>
+                                <buttton class="btn" style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+                                ">BUY NOW <span><i class="fas fa-long-arrow-alt-right light"></i></span></buttton>
+                            </div>
+                            <div class="col-lg-4 col-12 col-sm-4">
+                                <img width="442px" height="378px" src="images/banner-images/tv.png" class="d-block "
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="d-flex d-sm-flex text-center d-lg-flex justify-content-center align-items-center row">
+                            <div class="col-lg-6 col-sm-4 col-12">
+                                <h1>Brand new collection</h1>
+                                <p>It's a new addition of panda.</p>
+                                <p class="fs-1">$420</p>
+                                <buttton class="btn text-light" style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+                            ">BUY NOW <span><i class="fas fa-long-arrow-alt-right text-light"></i></span></buttton>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 col-12">
+                                <img width="442px" height="378px" src="images/banner-images/xbox.png" class="d-block "
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <!-- header end -->
+    <!-- main body  -->
+    <main>
+        <section class="container">
+            <h1 class="p-3">categories</h1>
+            <div class="row gy-5 d-flex justify-content-between">
+                <div class="card mb-3 p-2 col-lg-3 col-12" style="background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+                ">
+                    <div class="row g-0  align-items-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/categories/bag.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 col-lg-3 col-12" style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+                ">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/categories/shoes.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 col-lg-3 col-12" style="background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+                ">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/categories/watch.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- categories end  -->
+        <!-- shoes sart  -->
+        <section class="container mt-5">
+            <div class="d-flex justify-content-between">
+                <h2>Shoes</h2>
+                <small class="text-danger">see all</small>
+            </div>
+            <div class=" row d-flex justify-content-between gy-5">
+                <div class=" col-lg-4 shadow">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">supply350</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p class="fs-3">$120</p>
+                        <button class="btn text-white" style="background: #000000;
+                            ">Buy now <span><i class="fas fa-angle-right"></i><i
+                                    class="fas fa-angle-right"></i></span></button>
+                    </div>
+                </div>
+                <div class=" col-lg-4 shadow">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">supply350</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p class="fs-3">$120</p>
+                        <button class="btn text-white" style="background: #000000;
+                            ">Buy now <span><i class="fas fa-angle-right"></i><i
+                                    class="fas fa-angle-right"></i></span></button>
+                    </div>
+                </div>
+                <div class="col-lg-3 shadow">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">supply350</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p class="fs-3">$120</p>
+                        <button class="btn text-white" style="background: #000000;
+                            ">Buy now <span><i class="fas fa-angle-right"></i><i
+                                    class="fas fa-angle-right"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shoes end  -->
+        <!-- bags start  -->
+        <section class="container mt-5">
+            <div class="d-flex justify-content-between">
+                <h2>Shoes</h2>
+                <small class="text-danger">see all</small>
+            </div>
+            <div class=" row d-flex justify-content-between gy-5">
+                <div class=" col-lg-4 shadow">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">supply350</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p class="fs-3">$120</p>
+                        <button class="btn text-white" style="background: #000000;
+                            ">Buy now <span><i class="fas fa-angle-right"></i><i
+                                    class="fas fa-angle-right"></i></span></button>
+                    </div>
+                </div>
+                <div class=" col-lg-4 shadow">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">supply350</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p class="fs-3">$120</p>
+                        <button class="btn text-white" style="background: #000000;
+                            ">Buy now <span><i class="fas fa-angle-right"></i><i
+                                    class="fas fa-angle-right"></i></span></button>
+                    </div>
+                </div>
+                <div class="col-lg-3 shadow">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">supply350</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p class="fs-3">$120</p>
+                        <button class="btn text-white" style="background: #000000;
+                            ">Buy now <span><i class="fas fa-angle-right"></i><i
+                                    class="fas fa-angle-right"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main end  -->
+    <!-- footer start  -->
+    <footer class="container mt-5" style="background: #FFF2F1;
+    ">
+        <div style="height: 250px;" class="d-flex p-5 justify-content-center align-items-center">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text">
+                <button class="btn " style="background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+        ">send</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center p-1">
+            <p>&copy; Muhammad Moyenul Islam</p>
+        </div>
+    </footer>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
